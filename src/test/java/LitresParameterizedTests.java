@@ -52,7 +52,6 @@ public class LitresParameterizedTests {
         $("[data-testid='search__input']").setValue(authorWithTitle).pressEnter();
         $("[data-testid='search__content--wrapper']").shouldHave(text(title));
     }
-
 }
 
 
