@@ -18,7 +18,6 @@ public class LitresParameterizedTests {
     @BeforeEach
     void setUp() {
         Configuration.browserSize = "1920x1080";
-        Configuration.pageLoadStrategy = "eager";
     }
 
     @EnumSource(LitresTabs.class)
