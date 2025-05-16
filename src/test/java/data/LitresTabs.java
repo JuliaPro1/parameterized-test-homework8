@@ -11,4 +11,5 @@ public enum LitresTabs {
     LitresTabs(String title) {
         this.title = title;
     }
+
 }
